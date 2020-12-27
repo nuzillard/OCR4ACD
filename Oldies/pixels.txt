@@ -1,0 +1,7 @@
+en colonne, depuis la gauche
+pixel 3 à 40 (colonne 1)
+pixel 73 à 130 (colonne 2)
+
+en ligne, depuis le haut
+pixels 52 à 69 (ligne 1)
+puis de 20 pixels en 20 pixels

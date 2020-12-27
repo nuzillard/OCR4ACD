@@ -1,0 +1,26 @@
+installation of pytesseract with conda
+conda install -c conda-forge pytesseract
+
+https://github.com/UB-Mannheim/tesseract/wiki
+installation of tesseract-ocr-w64-setup-v5.0.0-alpha.20200328.exe (Univ. Mannheim)
+
+https://towardsdatascience.com/a-table-detection-cell-recognition-and-text-extraction-algorithm-to-convert-tables-to-excel-files-902edcf289ec
+
+installation of opencv with conda
+conda install -c defaults opencv
+conda install -c conda-forge opencv does not work (>>> import cv2 -> error)
+
+python
+>>> import cv2
+>>> import numpy as np
+>>> import pandas as pd
+>>> import matplotlib.pyplot as plt
+>>> import csv
+>>> from PIL import Image
+>>> import pytesseract   
+
+Ok.   
+
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Tesseract-OCR\tesseract'
+print(pytesseract.image_to_string(r'image3.png'), file=open(r'image3.txt', 'w'))
